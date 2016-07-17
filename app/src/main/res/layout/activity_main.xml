@@ -46,4 +46,13 @@
         android:src="@android:drawable/ic_dialog_email"
         />
 
+    <com.roide.progressdotslib.ProgressDotWidget
+        android:id="@+id/progress_dots"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end|bottom"
+        android:background="@color/colorPrimary"
+        android:padding="@dimen/standard_margins"
+        />
+
 </android.support.design.widget.CoordinatorLayout>
