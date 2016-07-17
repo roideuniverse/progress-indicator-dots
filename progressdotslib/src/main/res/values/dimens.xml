@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="progress_dot_widget_corner_radius">45dp</dimen>
+    <dimen name="progress_widget_dot_size">8dp</dimen>
+
+    <dimen name="sixteenth_margins">1dp</dimen>
+    <dimen name="eighth_margins">2dp</dimen>
+    <dimen name="quarter_margins">4dp</dimen>
+    <dimen name="half_margins">8dp</dimen>
+    <dimen name="three_fourths_margin">12dp</dimen>
+    <dimen name="standard_margins">16dp</dimen>
+    <dimen name="one_half_standard_margin">24dp</dimen>
+</resources>
