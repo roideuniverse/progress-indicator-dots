@@ -6,7 +6,7 @@ A progress indicator that uses dots to show progress
 I once wrote this progress dots indicator for one app, then wrote it again for another app. Now I want to use it again in my next app, so I thought this is a good time to release it as a library and make it open source. 
 
 # Install
-I am in the process of releasing it, in the mean you have download it and import it as a submodule.
+I am in the process of releasing it, in the meantime you have download it and import it as a submodule.
 
 #How it looks like
 
