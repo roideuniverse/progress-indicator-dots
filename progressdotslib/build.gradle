@@ -23,3 +23,14 @@ dependencies {
     testCompile 'junit:junit:4.12'
     compile 'com.android.support:appcompat-v7:24.0.0'
 }
+
+task deleteJar(type: Delete) {
+    delete 'libs/progressdotslib.jar'
+}
+
+task createJar(type: Copy) {
+    from('build/intermediates/bundles/release/')
+    into('libs/')
+    include('classes.jar')
+    rename('classes.jar', 'progressdotslib.jar')
+}
